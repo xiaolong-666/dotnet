@@ -1,0 +1,5 @@
+dotnet (7.0.117) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- xiaolong <longqiang@uniontech.com>  Tue, 16 Apr 2024 17:43:04 +0800

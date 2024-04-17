@@ -1,0 +1,19 @@
+Source: dotnet
+Section: devel
+Priority: optional
+Maintainer: xiaolong <longqiang@uniontech.com>
+Build-Depends: debhelper (>= 11), liblttng-ust0
+Homepage: https://dot.net/core
+
+Package: com.dotnet
+Architecture: amd64 arm64 loongarch64
+Depends: ${shlibs:Depends}, ${misc:Depends}, libc6, libgcc1, libgssapi-krb5-2, libicu63, libssl1.1, libstdc++6, zlib1g
+Description: dotNET 7.0 Software Development Kit
+ The dotNET SDK is a collection of command line applications to
+ create, build, publish and run dotNet applications.
+ .
+ dotNET is a fast, lightweight and modular platform for creating
+ cross platform applications that work on GNU/Linux, macOS and Windows.
+ .
+ It particularly focuses on creating console applications, web
+ applications and micro-services.
